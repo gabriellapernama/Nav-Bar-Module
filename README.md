@@ -2,20 +2,24 @@
 
 > This module is the navigation bar microservice clone for Adidas item product page website shown as of March 2019
 
-# Demo
+## Demo
 
 ![](abibasReadMe.gif)
 
 This demo shows the navigation bar microservice.
 
-# Table of Contents
+## Table of Contents
 
-1. [Tech Stack](#Tech Stack)
+1. [Tech Stack](#tech)
+2. [Related Microservices](#micro)
+3. [Dependencies](#depend)
 
+<a name="tech"></a>
 ## Tech Stack
 
 > React | Express | MongoDB | Amazon EC2, S3 | Docker
 
+<a name="micro"></a>
 ## Related Microservices
 
 - https://github.com/team-barium/Reviews-Module
@@ -23,6 +27,7 @@ This demo shows the navigation bar microservice.
 - https://github.com/team-barium/product-details-module
 - https://github.com/team-barium/Nav-Bar-Proxy
 
+<a name="depend"></a>
 ### Installing Dependencies
 
 From within the root directory:
