@@ -1,32 +1,27 @@
-# Nav-Bar-Module
+# Abibas: An items page clone
 
-> Project description
+> This module is the navigation bar microservice clone for Adidas item product page website shown as of March 2019
 
-## Related Projects
+# Demo
+
+![](abibasReadMe.gif)
+
+This demo shows the navigation bar microservice.
+
+# Table of Contents
+
+1. [Tech Stack](#Tech Stack)
+
+## Tech Stack
+
+> React | Express | MongoDB | Amazon EC2, S3 | Docker
+
+## Related Microservices
 
 - https://github.com/team-barium/Reviews-Module
 - https://github.com/team-barium/Suggestions-Module
-- https://github.com/team-barium/
-- https://github.com/team-barium/
-
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-
-## Usage
-
-> Some usage instructions
-
-## Requirements
-
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
-## Development
+- https://github.com/team-barium/product-details-module
+- https://github.com/team-barium/Nav-Bar-Proxy
 
 ### Installing Dependencies
 
@@ -36,5 +31,3 @@ From within the root directory:
 npm install -g webpack
 npm install
 ```
-
-![](abibasReadMe.gif)
