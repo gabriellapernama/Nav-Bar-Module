@@ -4,10 +4,10 @@
 
 ## Related Projects
 
-  - https://github.com/team-barium/Reviews-Module
-  - https://github.com/team-barium/Suggestions-Module
-  - https://github.com/team-barium/
-  - https://github.com/team-barium/
+- https://github.com/team-barium/Reviews-Module
+- https://github.com/team-barium/Suggestions-Module
+- https://github.com/team-barium/
+- https://github.com/team-barium/
 
 ## Table of Contents
 
@@ -37,3 +37,4 @@ npm install -g webpack
 npm install
 ```
 
+![](abibasNavBar.gif)
