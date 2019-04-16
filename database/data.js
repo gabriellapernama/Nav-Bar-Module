@@ -1,3 +1,24 @@
+// const mainCategories = ["men", "women", "kids", "sports", "brands"];
+
+// const individualCats = {
+//   menAndWomenCats: ["featured", "shoes", "clothing", "accessories", "sports"],
+//   kids: [
+//     "featured",
+//     "youth (8-14)",
+//     "children (4-8)",
+//     "baby & toddler (0-4)",
+//     "accessories"
+//   ],
+//   sports: ["running", "soccer", "outdoor", "basketball"],
+//   brands: [
+//     "original", "stella mcartney", "adidas skateboarding", "collections"
+//   ]
+// };
+
+// const featured = {
+//   men:
+// }
+
 const categories = {
   men: [
     {
@@ -85,7 +106,7 @@ const categories = {
     {
       featured: [
         "New Arrivals",
-        "Best Sellars",
+        "Best Sellers",
         "Release Dates",
         "YEEZY",
         "Ultraboost",
@@ -241,8 +262,10 @@ const categories = {
         "YEEZY",
         "P.O.D. System",
         "NMB"
-      ],
-      "adidas athletics": [
+      ]
+    },
+    {
+      adidasAthletics: [
         "Men's clothing",
         "Women's clothing",
         "Kids Clothing",

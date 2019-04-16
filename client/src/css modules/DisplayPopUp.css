@@ -91,3 +91,13 @@
 .seeAll {
   padding-top: 200px;
 }
+.headerStyle {
+  color: "#767677";
+  font-size: "12px";
+  line-height: "16px";
+  text-decoration: "normal";
+}
+.lineStyle {
+  font-size: "12px";
+  line-height: "16px";
+}

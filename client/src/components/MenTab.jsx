@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../css modules/MenTab.css";
 import { categories } from "../../../database/data.js";
+import Headers from "./Headers.jsx";
 
 const SetItems = props =>
   props.arr.map((items, index) => {
@@ -31,22 +32,6 @@ const GetFeatured = props => {
   );
 };
 
-const GetMen = props => {
-  var noFeatured = categories.men.slice(1);
-  return noFeatured.map((titles, index) => {
-    for (var key in titles) {
-      return (
-        <div key={index} className={styles.eachCol}>
-          <div className={styles.headline}>{key}</div>
-          <ul>
-            <SetItems arr={titles[key]} />
-          </ul>
-        </div>
-      );
-    }
-  });
-};
-
 class MenTab extends React.Component {
   constructor(props) {
     super(props);
@@ -63,7 +48,7 @@ class MenTab extends React.Component {
       >
         <div className={styles.nextLine}>
           <GetFeatured />
-          <GetMen />
+          <Headers categories={categories.men.slice(1)} />
         </div>
       </div>
     );

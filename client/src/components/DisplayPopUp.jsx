@@ -1,17 +1,6 @@
 import React from "react";
 import styles from "../css modules/DisplayPopUp.css";
 
-const headerStyle = {
-  color: "#767677",
-  fontSize: "12px",
-  lineHeight: "16px",
-  textDecoration: "normal"
-};
-const lineStyle = {
-  fontSize: "12px",
-  lineHeight: "16px"
-};
-
 class DisplayPopUp extends React.Component {
   constructor(props) {
     super(props);
@@ -60,9 +49,13 @@ class DisplayPopUp extends React.Component {
                     <a className={styles.parentProducts}>
                       <img src={dataObj.picture} className={styles.images} />
                       <div className={styles.productInfo}>
-                        <div style={headerStyle}>{dataObj.item_name}</div>
-                        <div style={lineStyle}>{dataObj.cuteness_level}</div>
-                        <div style={lineStyle}>{dataObj.stars}</div>
+                        <div className={styles.headerStyle}>
+                          {dataObj.item_name}
+                        </div>
+                        <div className={styles.lineStyle}>
+                          {dataObj.cuteness_level}
+                        </div>
+                        <div className={styles.lineStyle}>{dataObj.stars}</div>
                       </div>
                     </a>
                   </li>
@@ -77,12 +70,3 @@ class DisplayPopUp extends React.Component {
 }
 
 export default DisplayPopUp;
-{
-  /* <div><div>Suggestions</div>
-  {props.responseArr.map(dataObj => (
-    <div className={styles.neon}>
-      
-      <br />
-      <div>{dataObj.item_name}</div>
-    </div></div> */
-}

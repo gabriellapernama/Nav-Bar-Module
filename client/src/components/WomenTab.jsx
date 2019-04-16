@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../css modules/MenTab.css";
 import { categories } from "../../../database/data.js";
+import Headers from "./Headers.jsx";
 
 const SetItems = props =>
   props.arr.map((items, index) => {
@@ -31,28 +32,12 @@ const GetFeatured = props => {
   );
 };
 
-const GetWomen = props =>
-  categories.women.map((titles, index) => {
-    if (index !== 0) {
-      for (var key in titles) {
-        return (
-          <div key={index} className={styles.eachCol}>
-            <div className={styles.headline}>{key}</div>
-            <ul>
-              <SetItems arr={titles[key]} />
-            </ul>
-          </div>
-        );
-      }
-    }
-  });
-
 const WomenTab = props => (
   <div className={styles.mainLine} onMouseLeave={() => props.toggleHover()}>
     {" "}
     <div className={styles.nextLine}>
       <GetFeatured />
-      <GetWomen />
+      <Headers categories={categories.women.slice(1)} />
     </div>
   </div>
 );
